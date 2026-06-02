@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e3c65d6483998b50d78b14d0deaad310" label="dpr support application" max_length="40" name="x_1624508_dpr_le_0_dpr_support_application" type="collection">
+        <element label="Application" max_length="40" name="application" type="string"/>
+        <element label="App Description" max_length="40" name="app_description" type="string"/>
+        <element label="App owner" max_length="32" name="app_owner" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="app_owner"/>
+        </index>
+    </element>
+</database>
